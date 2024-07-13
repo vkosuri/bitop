@@ -13,6 +13,7 @@ To build the library and examples:
 
 ```bash
 make all
+make run_tests
 ```
 
 To clean up generated files:
