@@ -1,3 +1,7 @@
+# Ignore binary
+bitop
+test_bitop
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,14 @@
+language: c
+
+compiler:
+  - gcc
+
+script:
+  - make run_tests
+
+# Only generate changelog on the main branch
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "main" ]; then npm install -g standard-version && standard-version; fi
+
+notifications:
+  email: false
