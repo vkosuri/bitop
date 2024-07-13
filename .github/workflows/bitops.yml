@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -23,6 +26,12 @@ jobs:
 
       - name: Run tests
         run: make run_tests
+
+      - name: Set Git config
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.email "malli.kv2@gmail.com"
+          git config user.name "vkosuri"
 
       - name: Generate changelog
         if: github.ref == 'refs/heads/main'
