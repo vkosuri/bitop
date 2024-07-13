@@ -38,3 +38,8 @@ jobs:
         run: |
           npm install -g standard-version
           standard-version
+
+      - name: Push changes and tags
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git push --follow-tags origin main
