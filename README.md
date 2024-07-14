@@ -1,6 +1,3 @@
-Certainly! Here's how you can structure the table in your `README.md` with links for each function and real-world examples suited for embedded systems:
-
-```markdown
 # bitops
 
 bitops is a C library for bitwise operations.
@@ -53,12 +50,3 @@ make clean
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Explanation
-
-- **Function**: Name of the function with a link to its corresponding wiki page (if available).
-- **Description**: Brief description of what the function does.
-- **Real World Example in bitop.h**: Example of how this function might be used in a real-world embedded context, specifically within `bitop.h`.
-
-This table now includes links for functions where the wiki pages have been provided. Adjust the descriptions and examples as needed based on the specific use cases and applications in embedded systems.
