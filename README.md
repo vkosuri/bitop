@@ -1,6 +1,6 @@
-# bitop
+# bitops
 
-bitop is a C library for bitwise operations.
+bitops is a C library for bitwise operations.
 
 ## Features
 

@@ -1,0 +1,14 @@
+name: Bitwise GitHub Actions
+
+on:
+  pull_request: {}
+  push: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run tests
+        run: make run_tests
