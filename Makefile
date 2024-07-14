@@ -37,7 +37,7 @@ libbitops.so: $(OBJ)
 	$(CC) -shared -o $@ $^ $(CFLAGS)
 
 # Rule to build the test executable
-test_bitops: test_bitop.o $(OBJ)
+test_bitops: test_bitops.o $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 # Rule to run tests
