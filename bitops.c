@@ -1,12 +1,12 @@
 /*
- * bitop.c
+ * bitops.c
  * 
  * Copyright (c) 2024 vkosuri <malli.kv2@gmail.com>
  * 
  * License: MIT LICENSE, see file in root directory
  */
 
-#include "bitop.h"
+#include "bitops.h"
 #include <stdio.h>
 #include <string.h>
 

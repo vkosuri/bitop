@@ -1,13 +1,13 @@
 /*
- * bitop.h
+ * bitops.h
  * 
  * Copyright (c) 2024 vkosuri <malli.kv2@gmail.com>
  * 
  * License: MIT LICENSE, see file in root directory
  */
 
-#ifndef BITOP_H
-#define BITOP_H
+#ifndef BITOPS_H
+#define BITOPS_H
 
 #include <stdint.h>
 
@@ -182,4 +182,4 @@ uint8_t find_msb(uint8_t x);
  */
 uint8_t swap_nibbles(uint8_t x);
 
-#endif /* BITOP_H */
+#endif /* BITOPS_H */

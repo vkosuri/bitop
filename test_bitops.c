@@ -6,7 +6,7 @@
  * License: MIT LICENSE, see file in root directory
  */
 
-#include "bitop.h"
+#include "bitops.h"
 #include <assert.h>
 #include <stdio.h>
 
