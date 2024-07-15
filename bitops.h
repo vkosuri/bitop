@@ -11,6 +11,12 @@
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
 /**
  * @brief Sets a specific bit in a number.
  * 
@@ -181,5 +187,9 @@ uint8_t find_msb(uint8_t x);
  * @return The byte with swapped nibbles.
  */
 uint8_t swap_nibbles(uint8_t x);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* BITOPS_H */
